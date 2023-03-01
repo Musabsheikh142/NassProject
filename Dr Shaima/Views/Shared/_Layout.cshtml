@@ -81,29 +81,29 @@
         </div>
         <!-- header-upper -->
         <div class="header-upper">
-           <div class="auto-container">
-                    <div class="upper-inner clearfix">
-                        <div class="logo-box pull-left">
-                            <img src="~/assets/images/logos.png" style="height:90px; padding-top:10px; width:300px" alt="">
-                            @*<figure ><a href="index.html"></a></figure>*@
-                        </div>
-                        <ul class="upper-info pull-right clearfix">
-                            <li>
-                                <i class="flaticon-telephone"></i>
-                                <p>Call Us At</p>
-                            <h5><a href="tel:+91 87886 07143">+91 87886 07143</a></h5>
-                            </li>
-                            <li>
-                                <i class="flaticon-email"></i>
-                                <p>Write a mail</p>
-                                <h5><a href="#">dr.shaima.farheen@gmail.com</a></h5>
-                            </li>
-                            <li class="btn-box">
-                                <a href="#" class="theme-btn-one">Book Appointment</a>
-                            </li>
-                        </ul>
+            <div class="auto-container">
+                <div class="upper-inner clearfix">
+                    <div class="logo-box pull-left">
+                        <img src="~/assets/images/logos.png" style="height:90px; padding-top:10px; width:300px" alt="">
+                        @*<figure ><a href="index.html"></a></figure>*@
                     </div>
+                    <ul class="upper-info pull-right clearfix">
+                        <li>
+                            <i class="flaticon-telephone"></i>
+                            <p>Call Us At</p>
+                            <h5><a href="tel:+91 87886 07143">+91 87886 07143</a></h5>
+                        </li>
+                        <li>
+                            <i class="flaticon-email"></i>
+                            <p>Write a mail</p>
+                            <h5><a href="#">dr.shaima.farheen@gmail.com</a></h5>
+                        </li>
+                        <li class="btn-box">
+                            <a href="/Home/Contact/" class="theme-btn-one">Book Appointment</a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
         </div>
         <!-- header-lower -->
         <div class="header-lower">
@@ -119,26 +119,26 @@
                         <nav class="main-menu navbar-expand-md navbar-light pull-left">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li >
+                                    <li>
                                         <a asp-controller="Home" asp-action="Home">Home</a>
-                                    </li> 
+                                    </li>
                                     <li><a asp-controller="Home" asp-action="About">About</a></li>
 
                                     <li><a asp-controller="Home" asp-action="Services">Services</a></li>
 
-                                                                                
-                                           
-                                    <li><a asp-controller="Home" asp-action="Gallery">Gallery</a>  </li>
+
+
+
 
                                     <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
-                       @* <ul class="social-links pull-right clearfix">
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                        @* <ul class="social-links pull-right clearfix">
+                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>*@
                     </div>
                 </div>
@@ -154,10 +154,10 @@
                             <!--Keep This Empty / Menu will come through Javascript-->
                         </nav>
                         @*<ul class="social-links pull-right clearfix">
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>*@
                     </div>
                 </div>
@@ -182,18 +182,17 @@
                 </ul>
             </div>
             <div class="social-links">
-               @* <ul class="clearfix">
-                    <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                @* <ul class="clearfix">
+                <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
                 </ul>*@
             </div>
         </nav>
     </div><!-- End Mobile Menu -->
-  
-            @RenderBody()
+    @RenderBody()
 
     <!-- main-footer -->
 
@@ -229,12 +228,12 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="index.html">About</a></li>
-                                        <li><a href="index.html">Make Appointment</a></li>
-                                        <li><a href="index.html">Our Services</a></li>
-                                        <li><a href="index.html">Team Members</a></li>
-                                        <li><a href="index.html">Team Members</a></li>
-                                        <li><a href="index.html">Contact Us</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Make Appointment</a></li>
+                                        <li><a href="#">Our Services</a></li>
+                                        <li><a href="#">Team Members</a></li>
+                                        <li><a href="#">Team Members</a></li>
+                                        <li><a href="#">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,12 +245,12 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="index.html">Massage Therapy</a></li>
-                                        <li><a href="index.html">Physiotherapy</a></li>
-                                        <li><a href="index.html">Chiroptratic Therapy</a></li>
-                                        <li><a href="index.html">Sport Injuries</a></li>
-                                        <li><a href="index.html">Clinical Pilates</a></li>
-                                        <li><a href="index.html">Work Injuries</a></li>
+                                        <li><a href="#">Massage Therapy</a></li>
+                                        <li><a href="#">Physiotherapy</a></li>
+                                        <li><a href="#">Chiroptratic Therapy</a></li>
+                                        <li><a href="#">Sport Injuries</a></li>
+                                        <li><a href="#">Clinical Pilates</a></li>
+                                        <li><a href="#">Work Injuries</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -293,10 +292,10 @@
                     <p>&copy; Copyright 2020 by <a href="/Home/Home/">Dr.Shaima</a></p>
                 </div>
                 @*<ul class="social-links pull-right clearfix">
-                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/drshaimasclinic/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
                 </ul>*@
             </div>
         </div>
@@ -306,7 +305,7 @@
     <button class="scroll-top scroll-to-target" data-target="html">
         <span class="far fa-arrow-up"></span>
     </button>
-    
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -322,7 +321,7 @@
     <script src="~/assets/js/appear.js"></script>
     <script src="~/assets/js/scrollbar.js"></script>
     <script src="~/assets/js/nav-tool.js"></script>
-    
+
     <!-- main-js -->
     <script src="~/assets/js/script.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
